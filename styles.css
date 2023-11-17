@@ -1,0 +1,4 @@
+ /*DEVELOPER: Justin Gomez, IS117-003, Fall 2023*/
+ .nav-item:hover .dropdown-menu {
+         display: block;
+        }
