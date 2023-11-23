@@ -1,4 +1,3 @@
-<!-- DEVELOPER: Justin Gomez, IS117-003, Fall 2023 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Career Paths - Cybersecurity Career Info</title>
+    <title>Contact Us - Cybersecurity Career Info</title>
 </head>
 
 <body>
-    <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">Cybersecurity Career Info</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -48,35 +46,25 @@
         </nav>
 
     <div class="container mt-3">
-        <h1>Cybersecurity Career Paths</h1>
-        <p>Explore various career paths within the field of Cybersecurity and discover opportunities for specialization.</p>
-        <p>Please click and image below to be naviagted to it's respective information page.</p>
-        
-        <div class="col">
-            <div class="row">
-                
-                <div class="col-md-6">
-                    <a href="careerpathsRedTeam.html">
-                        <img src="/images/red_hat.png" class="img-fluid mb-3" alt="Red Hat image">
-                    </a>
-                </div>
-        
-                <div class="col-md-6">
-                    <a href="careerpathsBlueTeam.html">
-                        <img src="/images/blue_hat.png" class="img-fluid mb-3" alt="Blue Hat image">
-                    </a>
-                </div>
+        <h1>Contact Us</h1>
+        <p>Have questions or would like to reach out? Fill out the form below and we will get back to you!</p>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
             </div>
-        </div>
-        
-                
-
-
-            
-
-
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Type your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
-</div>
 
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
@@ -93,8 +81,6 @@
             </div>
         </div>
     </footer>
-
-
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
